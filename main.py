@@ -19,21 +19,21 @@ class MainWindow(QMainWindow):
             }
         """)
 
-        # Create central widget and layout
+
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
         layout = QVBoxLayout(central_widget)
         layout.setSpacing(15)
         layout.setContentsMargins(20, 20, 20, 20)
 
-        # Title section
+
         title_label = QLabel("Website Chat Assistant")
         title_label.setFont(QFont("Arial", 24, QFont.Bold))
         title_label.setStyleSheet("color: #2c3e50;")
         title_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(title_label)
 
-        # Website section
+
         website_frame = QFrame()
         website_frame.setStyleSheet("""
             QFrame {
@@ -81,7 +81,7 @@ class MainWindow(QMainWindow):
         
         layout.addWidget(website_frame)
 
-        # Chat display
+
         self.chat_display = QTextEdit()
         self.chat_display.setReadOnly(True)
         self.chat_display.setStyleSheet("""
@@ -96,7 +96,7 @@ class MainWindow(QMainWindow):
         """)
         layout.addWidget(self.chat_display)
 
-        # Chat input section
+
         chat_input_frame = QFrame()
         chat_input_frame.setStyleSheet("""
             QFrame {
@@ -145,7 +145,7 @@ class MainWindow(QMainWindow):
         
         layout.addWidget(chat_input_frame)
 
-        # Add creator label
+
         creator_label = QLabel("Made by Aditya Narayan")
         creator_label.setStyleSheet("""
             QLabel {
