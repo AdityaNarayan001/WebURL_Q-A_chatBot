@@ -16,8 +16,8 @@ flowchart TD
     A[User passes URL to UI] --> B[Playwright scrapes URL & captures full-length screenshot]
     B --> C[Pass screenshot to Ollama Llava Vision LLM]
     C --> D[User inputs Query in UI]
-    D --> E[LLM generates response]
-    E --> F[Response is shown on UI]
+    D --> E[LLM generates response] --> D
+    E --> F[Response is shown on UI] --> E
 ```
 
 
