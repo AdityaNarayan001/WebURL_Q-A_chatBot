@@ -9,6 +9,18 @@ A desktop application that allows you to chat with any website using AI vision c
 - Visual analysis of website content using LLaVa model
 - Modern and user-friendly GUI built with PySide6
 
+## Flowchart 📊
+
+```mermaid
+flowchart TD
+    A[User passes URL to UI] --> B[Playwright scrapes URL & captures full-length screenshot]
+    B --> C[Pass screenshot to Ollama Llava Vision LLM]
+    C --> D[User inputs Query in UI]
+    D --> E[LLM generates response]
+    E --> F[Response is shown on UI]
+```
+
+
 ## Prerequisites 📋
 
 Before running the application, make sure you have:
