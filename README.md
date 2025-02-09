@@ -38,6 +38,10 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+## Screenshots 📸
+
+![New Screen](readme_asset/new_screen.png)
+![URL and Chat Loaded Screen](readme_asset/loaded_screen.png)
 
 ## Usage 📝
 
