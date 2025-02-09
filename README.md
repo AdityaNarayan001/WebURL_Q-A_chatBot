@@ -13,10 +13,10 @@ A desktop application that allows you to chat with any website using AI vision c
 
 Before running the application, make sure you have:
 
-- Python 3.8+
-- Ollama installed with LLaVa model
-- Playwright browser automation tool
-- PySide6 GUI framework
+- ```Python 3.10```
+- ```Ollama``` ([more details](https://ollama.com/)) installed with ```LLaVa model``` ([model details](https://ollama.com/library/llava))
+- ```Playwright``` browser automation tool
+- ```PySide6``` GUI framework
 
 ## Installation 🛠️
 
