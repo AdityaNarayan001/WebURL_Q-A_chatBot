@@ -32,12 +32,21 @@ cd Web_URL_UI_chatBot
 ```bash
 pip install -r requirements.txt
 ```
+or
+```bash
+pip3 install -r requirements.txt
+```
 
 3. Run the application:
 
 ```bash
 python main.py
 ```
+or
+```bash
+python3 main.py
+```
+
 ## Screenshots 📸
 
 ![New Screen](readme_asset/new_screen.png)
